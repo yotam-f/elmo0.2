@@ -1,0 +1,153 @@
+body{
+    background-color:#85281b
+ 
+}
+
+.t{
+    margin: 0%;
+    height: 10%;
+    width: 100%;
+    background-color:#eeb481;
+    padding: 0;
+    padding-bottom: 0.1%; 
+    padding-top: 0.1%;    
+}
+.crgelCalim{
+    font-size: x-large;
+    text-align: center;
+    
+}
+a{
+    margin: 1%;
+    color: rgba(64, 64, 64, 0.73);
+    
+}
+
+.elmo{
+    text-decoration: none;
+    padding: 0.5%;
+}
+.sad_story{
+    text-decoration: none;
+    padding: 0.5%;
+}
+.about_us{
+    text-decoration: none;
+    padding: 0.5%;
+}
+.home{
+    text-decoration: none;
+    padding: 0.5%;
+}
+.copylink{
+    color: rgba(0, 0, 0, 0.73);
+    text-decoration: none;
+    padding: 0.5%;
+}
+
+
+.elmo:hover{
+    color: rgba(0, 0, 0, 0.73);
+}
+.home:hover{
+    color: rgba(0, 0, 0, 0.73);
+}
+.sad_story:hover{
+    color: rgba(0, 0, 0, 0.73);
+}
+.about_us:hover{
+    color: rgba(0, 0, 0, 0.73);
+}
+
+
+.link{
+    margin: 0;
+    line-height: 1.6;
+    font-weight: 300;
+}
+.linkdiv{
+    width: 40%;
+    height: 10%; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    background-color: #f2d8c0;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 8px #bfa88a;
+    overflow: auto; /* מאפשר גלילה אם התוכן גדול מדי */
+    white-space: nowrap; /* מונע שבירת שורות */
+    border-radius: 6px;
+}
+.h3{
+    color: #171717 ;
+}
+
+.copy{
+    background-color: #009578;
+    color: white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 9px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute; 
+}
+.copy:active{
+    background-color: #006f59;
+}
+
+.container{
+    align-content: left;
+    background-color: #85281b;
+    width: 45%;
+    height: 10%;
+    position: absolute;
+    top: 65%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    overflow: auto;
+    white-space: nowrap;
+    border-radius: 6px;
+}
+
+@media (max-width: 700px)
+{
+    .container{
+        position: absolute;
+        top: 65%;
+        left: 49%;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .container{
+        position: absolute;
+        top: 65%;
+        left: 48%;
+    }
+}
+
+@media (max-width: 400px)
+{
+    .container{
+        position: absolute;
+        top: 65%;
+        left: 46%;
+    }
+}
+
+@media (max-width: 300px)
+{
+    .container{
+        position: absolute;
+        top: 65%;
+        left: 44%;
+    }
+}
+

@@ -1,0 +1,74 @@
+body{
+    background-color:#85281b
+}
+   
+
+.t{
+    margin: 0%;
+    height: 10%;
+    width: 100%;
+    background-color:#eeb481;
+    padding: 0;
+    padding-bottom: 0.1%; 
+    padding-top: 0.1%;    
+}
+
+.crgelCalim{
+    font-size: x-large;
+    text-align: center;
+    
+}
+a{
+    margin: 1%;
+    color: rgba(64, 64, 64, 0.73);
+    
+}
+
+.elmo{
+    text-decoration: none;
+    padding: 0.5%;
+}
+.sad_story{
+    text-decoration: none;
+    padding: 0.5%;
+}
+.about_us{
+    color: rgba(0, 0, 0, 0.73);
+    text-decoration: none;
+    padding: 0.5%;
+}
+.home{
+    text-decoration: none;
+    padding: 0.5%;
+}
+
+.copylink{
+    text-decoration: none;
+    padding: 0.5%;
+}
+
+
+
+
+
+
+.copylink:hover{
+    color: rgba(0, 0, 0, 0.73);
+}
+
+.home:hover{
+    color: rgba(0, 0, 0, 0.73);
+}
+.elmo:hover{
+    color: rgba(0, 0, 0, 0.73);
+}
+.sad_story:hover{
+    color: rgba(0, 0, 0, 0.73);
+}
+
+.tragedy{
+    text-align: right;
+    font-size: 200%;
+    margin-right: 2%;
+    margin-top: 3%;
+}
